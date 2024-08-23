@@ -1,2 +1,11 @@
 {
+  "VIVIDUS-005": {
+    "type": "Internal",
+    "assertionPattern": ".*Expected: number of elements is a value equal to <8> Actual: <6>.*",
+	"storyPattern": "demoshop",
+    "scenarioPattern": ".*Verify that allows changing number of items on page.*",
+    "stepPattern": "Then number of elements found by `xpath\\(//div\\[@class='product-grid'\\]//div\\[contains\\(@class, 'item-box'\\)\\]\\)` is = `8`",
+    "description": "The product grid does not update correctly to show the expected number of items when selecting different values from the dropdown."
+  }
 }
+
